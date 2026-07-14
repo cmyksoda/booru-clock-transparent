@@ -4,7 +4,8 @@
 A desktop clock with the booru's girls holding digits.
 
 **All I have done is change the background of the original project to be transparent :)  
-I've only tested the Plasmoid! But the other two should work fine! lmk if they do not and I will fix!**
+I've tested the plasmoid and rainmeter skin!  
+The gadget *should* work fine since all I did was change the bg image but if it doesn't lmk and I will fix!**
 
 Has the following implementation:
 * [Window Gadget](./win7gadget/)
