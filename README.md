@@ -1,5 +1,5 @@
 # Booru Clock (Transparent Fork)
-<img src="./plaismoid-example.gif" alt="example" width="300"/>
+<img src="./plaismoid-example.gif" alt="example" width="762"/>
 
 A desktop clock with the booru's girls holding digits.
 
