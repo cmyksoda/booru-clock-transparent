@@ -1,5 +1,5 @@
 # Booru Clock
-<img src="./plaismoid-example.gif" alt="example" width="762"/>
+<img src="./plasmoid-example.gif" alt="example" width="762"/>
 
 A desktop clock with the booru's girls holding digits.
 
