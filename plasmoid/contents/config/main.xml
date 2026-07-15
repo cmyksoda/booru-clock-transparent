@@ -6,6 +6,9 @@
     <kcfgfile name=""/>
 
     <group name="Appearance">
+        <entry name="use12HourClock" type="Bool">
+            <default>false</default>
+        </entry>
         <entry name="showSeconds" type="Bool">
             <default>true</default>
         </entry>
@@ -15,7 +18,13 @@
         <entry name="theme" type="String">
             <default>rule34</default>
         </entry>
-        <entry name="opacity" type="Double">
+        <entry name="backgroundColor" type="String">
+            <default>gray</default>
+        </entry>
+        <entry name="fgopacity" type="Double">
+            <default>1</default>
+        </entry>
+        <entry name="bgopacity" type="Double">
             <default>1</default>
         </entry>
     </group>

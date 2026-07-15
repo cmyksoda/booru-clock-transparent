@@ -10,6 +10,7 @@ Item {
     property real lowerHeight: 0
     property int duration: Plasmoid.configuration.doFlip ? 400 : 0
     property string theme: Plasmoid.configuration.theme
+    property int fgopacity: Plasmoid.configuration.fgopacity
 
     Behavior on digit {
         SequentialAnimation {
@@ -48,6 +49,7 @@ Item {
             source: "../image/digit/"+theme+"/"+digit+".gif"
             speed: container.speed
             smooth: false
+            opacity: Plasmoid.configuration.fgopacity
         }
     }
     Item {
@@ -69,6 +71,7 @@ Item {
             source: "../image/digit/"+theme+"/"+prevDigit+".gif"
             speed: container.speed
             smooth: false
+            opacity: Plasmoid.configuration.fgopacity
         }
     }
     // bottom
@@ -91,6 +94,7 @@ Item {
             source: "../image/digit/"+theme+"/"+digit+".gif"
             speed: container.speed
             smooth: false
+            opacity: Plasmoid.configuration.fgopacity
         }
     }
     Item {
@@ -111,6 +115,7 @@ Item {
             source: "../image/digit/"+theme+"/"+prevDigit+".gif"
             speed: container.speed
             smooth: false
+            opacity: Plasmoid.configuration.fgopacity
         }
     }
 }

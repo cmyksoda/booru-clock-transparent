@@ -26,12 +26,16 @@ PlasmoidItem {
     fullRepresentation: RowLayout {
         height: root.height
         implicitWidth: height*ratio
-        opacity: Plasmoid.configuration.opacity
-        layer.enabled: true // apply opacity to the layout but not items (images)
 
         Tile {
             id: hours
-            number: timeSource.data.Local.DateTime.getHours()
+            number: {
+                let h = timeSource.data.Local.DateTime.getHours(); //12hr clock support
+                if (Plasmoid.configuration.use12HourClock) {
+                    return h % 12 === 0 ? 12 : h % 12;
+                }
+                return h;
+            }
             speed: 0.8
         }
         Tile {
