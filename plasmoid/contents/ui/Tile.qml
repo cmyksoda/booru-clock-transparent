@@ -1,10 +1,13 @@
 import QtQuick 2.15
 import QtQuick.Layouts
+import org.kde.plasma.plasmoid
 
 Item {
     property int number
     property real speed
     property int margin: parent.height/40
+    property string backgroundColor: Plasmoid.configuration.backgroundColor
+    property int bgopacity: Plasmoid.configuration.bgopacity
 
     Layout.minimumHeight: 50
     Layout.minimumWidth: 50
@@ -13,8 +16,9 @@ Item {
 
     Image {
         anchors.fill: parent
-        source: "../image/back.png"
+        source: "../image/bg/"+backgroundColor+".png"
             smooth: false
+            opacity: Plasmoid.configuration.bgopacity
     }
     Digit {
         anchors {

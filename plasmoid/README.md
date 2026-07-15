@@ -9,7 +9,9 @@ Has the following settings:
     * gelbooru
     * moebooru
     * rule34 (animated)
-* Opacity
+* Background color
+* Foreground opacity
+* Background opacity
 
 # Installation
 
