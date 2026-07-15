@@ -16,7 +16,7 @@
         "Icon": "clock",
         "Id": "com.github.7nik.booru-clock",
         "Name": "Booru Clock",
-        "Version": "2.0",
+        "Version": "26.07.15",
         "Website": "https://github.com/7nik/booru-clock"
     },
     "X-Plasma-API-Minimum-Version": "6.0",
